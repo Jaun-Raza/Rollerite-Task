@@ -447,10 +447,6 @@ nav {
     background-color: transparent;
   }
 
-  .nav__logo img {
-    max-width: 250px;
-  }
-
   .nav__logo-dark {
     display: flex;
   }
@@ -563,5 +559,11 @@ nav {
 @media (width > 1024px) {
   .order__grid {
     gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__logo a h2 {
+    color: white;
   }
 }
